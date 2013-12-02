@@ -9,7 +9,8 @@ namespace Dynamische_Navigation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hallo Genossen und Genossinen");
+        	string str = "Genossinen";
+            Console.WriteLine("Hallo Genossen und {0}",str);
 			Console.ReadKey();
         }
     }
